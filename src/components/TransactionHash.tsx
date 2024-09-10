@@ -8,7 +8,7 @@ export interface TransactionHashProps {
 
 export function TransactionHash({ hash, network }: TransactionHashProps) {
   if (isAptosNetwork(network)) {
-    const explorerLink = `https://explorer.aptoslabs.com/txn/${hash}${
+    const explorerLink = `https://explorer.movementlabs.xyz/txn/${hash}${
       network?.name ? `?network=${network.name}` : ""
     }`;
     return (
