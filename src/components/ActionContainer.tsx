@@ -7,6 +7,7 @@ import { aptosClient } from "@/utils";
 import { useToast } from "@/components/ui/use-toast";
 import { useWallet } from "@aptos-labs/wallet-adapter-react";
 import { TransactionHash } from "@/components/TransactionHash";
+import { useAptosWallet } from '@razorlabs/wallet-kit';
 
 const ActionContainer = () => {
   const pathname = usePathname();
@@ -14,7 +15,7 @@ const ActionContainer = () => {
   const [addressFromAction, setAddressFromAction] = useState("");
   const { toast } = useToast();
   const [layoutProps, setLayoutProps] = useState<LayoutProps | null>(null);
-  const { account, network, signAndSubmitTransaction } = useWallet();
+  const { account, network, signAndSubmitTransaction } = useAptosWallet();
 
   interface ActionWithParameters {
     href: string;
