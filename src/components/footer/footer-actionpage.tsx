@@ -20,7 +20,7 @@ export default function FooterActionpage() {
               className="flex gap-1.5 transition-colors hover:text-primary/80"
             >
               <IconInfoCircleFilled />
-              What are ActionX ?
+              What are SocialMove ?
             </Link>
             <Link
               href={"#"}

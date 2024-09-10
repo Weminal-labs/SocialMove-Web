@@ -22,7 +22,7 @@ export default function HeaderActionPage() {
               <Link href={"/"}>
                 <span className="flex items-center relative">
                   <p className="text-3xl lg:text-4xl font-bold bg-logoGradient dark:bg-logoGradientDark bg-clip-text text-transparent">
-                    ActionX
+                    SocialMove
                   </p>
                 </span>
               </Link>
@@ -47,9 +47,12 @@ export default function HeaderActionPage() {
                   {item.label}
                 </Link>
               ))}
-              <button className="bg-[#e9e9e9] text-black py-2 px-4 rounded-lg block lg:inline-block">
+              <Link
+                href={"/create"}
+                className="bg-[#e9e9e9] text-black py-2 px-4 rounded-lg block lg:inline-block"
+              >
                 Get Started
-              </button>
+              </Link>
               <WalletSelector />
               <ModeToggle />
             </nav>

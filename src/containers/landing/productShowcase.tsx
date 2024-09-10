@@ -14,7 +14,7 @@ export const ProductShowcase = () => {
   const opacity = useTransform(scrollYProgress, [0, 1], [0.3, 1]);
 
   return (
-    <div className="bg-black text-white bg-gradient-to-b from-black to-[#5D2CA8] py-[72px] sm:py-24">
+    <div className="bg-black text-white bg-gradient-to-b from-black to-[#200D42] py-[72px] sm:py-24">
       <div className="container">
         <h2 className="text-center text-5xl font-bold tracking-tighter">
           Intituve interface
