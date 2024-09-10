@@ -1,4 +1,5 @@
 import { Aptos, AptosConfig, Network } from "@aptos-labs/ts-sdk";
+// @ts-ignore
 import { NetworkInfo } from "@aptos-labs/wallet-adapter-core";
 
 export const aptosClient = (network?: NetworkInfo | null) => {

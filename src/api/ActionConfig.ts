@@ -1,3 +1,4 @@
+// @ts-ignore
 import { AptosClient } from "aptos";
 import { type Action } from "./Action";
 import { AbstractActionComponent } from "./Action/action-components";

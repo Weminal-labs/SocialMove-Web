@@ -1,3 +1,4 @@
+// @ts-ignore
 import { NetworkInfo } from "@aptos-labs/wallet-adapter-core";
 import { isAptosNetwork } from "@aptos-labs/wallet-adapter-react";
 
