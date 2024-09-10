@@ -20,11 +20,17 @@ export const aptosClient = (network?: NetworkInfo | null) => {
 // Devnet client
 export const DEVNET_CONFIG = new AptosConfig({
   network: Network.DEVNET,
+  fullnode: 'https://aptos.devnet.inola.movementlabs.xyz/v1',
+  faucet: 'https://faucet.devnet.inola.movementlabs.xyz',
 });
 export const DEVNET_CLIENT = new Aptos(DEVNET_CONFIG);
 
 // Testnet client
-export const TESTNET_CONFIG = new AptosConfig({ network: Network.TESTNET });
+export const TESTNET_CONFIG = new AptosConfig({ 
+  network: Network.TESTNET,
+  fullnode: 'https://aptos.testnet.suzuka.movementlabs.xyz/v1',
+  faucet: 'https://faucet.testnet.suzuka.movementlabs.xyz/',
+ });
 export const TESTNET_CLIENT = new Aptos(TESTNET_CONFIG);
 
 export const isSendableNetwork = (

@@ -14,6 +14,8 @@ import {
   truncateAddress,
   useWallet,
 } from "@aptos-labs/wallet-adapter-react";
+import { useAptosWallet } from '@razorlabs/wallet-kit';
+
 import {
   ArrowLeft,
   ArrowRight,
