@@ -15,7 +15,7 @@ const ActionContainer = () => {
   const [addressFromAction, setAddressFromAction] = useState("");
   const { toast } = useToast();
   const [layoutProps, setLayoutProps] = useState<LayoutProps | null>(null);
-  const { account, network, signAndSubmitTransaction } = useAptosWallet();
+  const { account, network, signAndSubmitTransaction } = useWallet();
 
   interface ActionWithParameters {
     href: string;

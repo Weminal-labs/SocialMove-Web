@@ -26,7 +26,7 @@ interface ActionData {
 }
 
 export function ActionDisplay({ data }: { data: ActionData }) {
-  const { account, network, signAndSubmitTransaction } = useAptosWallet();
+  const { account, network, signAndSubmitTransaction } = useWallet();
   const [inputValue, setInputValue] = useState("");
   const { toast } = useToast();
   const [loading, setLoading] = useState(false);
