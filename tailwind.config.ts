@@ -108,7 +108,7 @@ const config = {
         logoGradientDark:
           "linear-gradient(60deg, #fff 41.55%, #1F1C1C 58.9%, #fff 90.42%)",
         heroGradient:
-          "linear-gradient(to bottom, #000, #200D42 34%, #4F21A1 65%, #A46EDB 82%)",
+          "linear-gradient(to bottom, #000, #200D42 34%, #4F21A1 65%, #190D42 82%)",
       },
       backgroundColor: {
         darkCard: "#15181C",
