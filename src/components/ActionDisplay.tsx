@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useWallet } from "@aptos-labs/wallet-adapter-react";
+import { useAptosWallet } from '@razorlabs/wallet-kit';
 import { useToast } from "@/components/ui/use-toast";
 import Image from "next/image";
 import { InputAmount } from "@/components/ui/input-amount";

@@ -54,8 +54,8 @@ export const Hero = () => {
         <div className="flex justify-center">
           <p className="text-xl text-center mt-8 max-w-md">
             Dear builders, <br />
-            Don’t ask what APTOS can do for you <br />
-            Ask what you can do for APTOS
+            Don’t ask what Movement can do for you <br />
+            Ask what you can do for Movement
           </p>
         </div>
         <div className="flex justify-center mt-8">

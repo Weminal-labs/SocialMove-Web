@@ -7,6 +7,7 @@ import { aptosClient } from "@/utils";
 import { useToast } from "@/components/ui/use-toast";
 import { useWallet } from "@aptos-labs/wallet-adapter-react";
 import { TransactionHash } from "@/components/TransactionHash";
+import { useAptosWallet } from '@razorlabs/wallet-kit';
 
 const ActionContainer = () => {
   const pathname = usePathname();
