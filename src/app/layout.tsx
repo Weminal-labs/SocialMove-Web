@@ -8,12 +8,11 @@ import { AutoConnectProvider } from "@/components/AutoConnectProvider";
 import { Toaster } from "@/components/ui/toaster";
 import { WalletProvider } from "@/components/WalletProvider";
 import TopLoader from "@/components/TopLoader";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Action X",
-  description: "Action X",
+  title: "SocialMove",
+  description: "SocialMove Platform",
 };
 
 export default function RootLayout({
